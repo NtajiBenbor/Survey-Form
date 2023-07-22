@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>Survey Form</title>
-      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="/CSS/styles.css">
   </head>
   <body>
     <h1 id="title">Marathon Survey Form</h1>
     <p id="description">Thank you for taking your time to help us improve this event</p>
     <form action="" methode="post" id="survey-form">
       <fieldset>
-        <label for="name" id="name-label">Name: <input type="text" id="name" name="name" placeholder="enter your name"></label>
-        <label for="email" id="email-label">Email:<input type="email" id="email" required name="email" placeholder="enter your email" ></label>
-        <label for="number" id="number-label">Age:<input type="number" id="number" name="age" min="18" max="70" placeholder="age"></label>
+        <label for="name" id="name-label">Name<input type="text" id="name" name="name" placeholder="enter your name" class="top
+          " title="fill in your name"></label>
+        <label for="email" id="email-label">Email<input type="email" id="email" required name="email" placeholder="enter your email" class="top
+          " ></label>
+        <label for="number" id="number-label" class="top
+        ">Age<input type="number" id="number" name="age" min="18" max="70" placeholder="age" class="top
+          "></label>
         <label for="dropdown">How long have you been participating in marathons
-          <select id="dropdown">
+          <select id="dropdown" class="top
+          ">
             <option value="">Select One</option>
             <option value="first-timer">First timer</option>
             <option value="1 to 2 years">1 to 2 years</option>
@@ -26,15 +31,25 @@
         </label>
       </fieldset>
       <fieldset>
-        <label for="male"><input type="radio" name="gender" id="male" value="m">Male</label>
-        <label for="female"><input type="radio" name="gender" id="female" value="fm">Female</label>
-        <label for="p-n-s"><input type="radio" name="gender" id="p-n-s" value="p-n-s">I prefare not to say</label>
+        <label for="male" class="gender"><input type="radio" name="gender" id="male" value="m"> Male</label>
+        <label for="female" class="gender"><input type="radio" name="gender" id="female" value="fm"> Female</label>
+        <label for="p-n-s" class="gender"><input type="radio" name="gender" id="p-n-s" value="p-n-s"> I Prefare not to say</label>
       </fieldset>
       <fieldset>
         <p>What kind of races do you participate in?</p>
-         <label for="funrun"><input type="checkbox" name="race" id="funrun" value="funrun">Fun Runs</label>
-         <label for="funrun"><input type="checkbox" name="race" id="funrun" value="funrun">Half Marathons</label>
+         <label for="funrun" class="race-type"><input type="checkbox" name="race" id="funrun" value="funrun"> Fun Runs</label>
+         <label for="five-k" class="race-type"><input type="checkbox" name="race" id="five-k" value="five-k"> 5K Races (3.1 Miles)</label>
+         <label for="hm" class="race-type"><input type="checkbox" name="race" id="hm" value="hm"> Half-Marathon Races (13.1 Miles)</label>
+         <label for="mr" class="race-type"><input type="checkbox" name="race" id="mr" value="mr"> Marathon Races (26.2 Miles)</label>
+         <label for="um" class="race-type"><input type="checkbox" name="race" id="um" value="um"> Ultrmarathon Races (Longer than 26.2 Miles)</label>
+         <label for="tr" class="race-type"><input type="checkbox" name="race" id="tr" value="tr"> Trail Running Races</label>
+         <label for="or" class="race-type"><input type="checkbox" name="race" id="or" value="or" > Obstacle Races</label>
       </fieldset>
+      <fieldset>
+        <p>Any comments or suggestions?</p>
+        <textarea name="suggestions" id="suggestions" cols="30" rows="10"></textarea>
+      </fieldset>
+      <input type="submit" id="submit">
     </form>
   </body>
 <html>
