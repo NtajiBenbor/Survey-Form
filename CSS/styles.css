@@ -8,6 +8,8 @@ body {
     font-family: sans-serif;
     font-weight: 700;
     color: #fffff9;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 #title, #description {
