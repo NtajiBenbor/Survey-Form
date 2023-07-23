@@ -3,7 +3,7 @@ body {
     height: 100vh;
     margin: 0;
     background: url(/images/pexels-pixabay-34514.jpg);
-    background-size:cover;
+    background-size:100vw;
     font-size: 1em;
     font-family: sans-serif;
     font-weight: 700;
@@ -12,11 +12,17 @@ body {
 
 #title, #description {
     text-align: center;
+    font-family: sans-serif;
 }
+
+h1{
+    font-size: 1.8em;
+}
+
 
 fieldset{
     border: none;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 input[placeholder], select, option{
@@ -38,24 +44,35 @@ form {
     display: block;
     width: 100%;
     margin: 5px 0 20px 0;
-    padding: 8px 2px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: none;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: 2, 0, 4;
 }
 
 .gender {
     display: block;
-    margin: 0 0 10px;
+    margin-bottom: 10px;
     
     
 }
 
 .race-type {
     display: block;
-    margin: 0 0 10px;
+    margin-bottom: 12px;
 
 }
 
 #suggestions {
     width: 100%;
+    font-family: sans-serif;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-weight: 700;
 }
 
 input[type="submit"]{
@@ -69,6 +86,17 @@ input[type="submit"]{
     display: block;
     border-radius: 5px;
     font-size: 1em;
-    font-weight: 700;
-    
+    font-weight: 700; 
+    box-sizing: border-box; 
+}
+
+
+input[type="submit"]:hover {
+    background-color: rgb(40, 130, 249);
+    color: rgb(0, 0, 0);
+}
+
+input[type="submit"]:active {
+    background-color: rgb(144, 12, 63);
+    color: #fffff9;
 }

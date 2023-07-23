@@ -11,22 +11,20 @@
     <p id="description">Thank you for taking your time to help us improve this event</p>
     <form action="" methode="post" id="survey-form">
       <fieldset>
-        <label for="name" id="name-label">Name<input type="text" id="name" name="name" placeholder="enter your name" class="top
-          " title="fill in your name"></label>
-        <label for="email" id="email-label">Email<input type="email" id="email" required name="email" placeholder="enter your email" class="top
+        <label for="name" id="name-label">Name<input type="text" id="name" name="name" placeholder="Enter your name" class="top
+          " title="please fill this field" required></label>
+        <label for="email" id="email-label">Email<input type="email" id="email" required name="email" placeholder="Enter your Email" class="top
+          " title="please fill this field" ></label>
+        <label for="number" id="number-label" class="top">Age<input type="number" id="number" name="age" min="18" max="70" placeholder="Age" class="top
           " ></label>
-        <label for="number" id="number-label" class="top
-        ">Age<input type="number" id="number" name="age" min="18" max="70" placeholder="age" class="top
-          "></label>
         <label for="dropdown">How long have you been participating in marathons
-          <select id="dropdown" class="top
-          ">
-            <option value="">Select One</option>
+          <select id="dropdown" class="top" name="xp-level">
+            <option value="">Please pick one</option>
             <option value="first-timer">First timer</option>
             <option value="1 to 2 years">1 to 2 years</option>
-            <option value="2 to 5 years"> 2 to 5 years</option>
-            <option value="5 to 10 years"> 5 to 10 years</option>
-            <option value="10 plus years"> 10 plus years</option>
+            <option value="2 to 5 years">2 to 5 years</option>
+            <option value="5 to 10 years">5 to 10 years</option>
+            <option value="10 plus years">10 plus years</option>
           </select>
         </label>
       </fieldset>
@@ -47,7 +45,7 @@
       </fieldset>
       <fieldset>
         <p>Any comments or suggestions?</p>
-        <textarea name="suggestions" id="suggestions" cols="30" rows="10"></textarea>
+        <textarea name="suggestions" id="suggestions" placeholder="Enter your comments here..." cols="30" rows="5"></textarea>
       </fieldset>
       <input type="submit" id="submit">
     </form>
