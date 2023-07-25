@@ -10,18 +10,18 @@
 6. [Challenges](#6-challenges)
 7. [Author](#7-author)
 
-# 1. Project Overview :smile:
+# 1. Project Overview: :smile:
 
-Hello guys, this is a Survey Form for gathering data from people participating in  marathon events. The form takes the names, email addresses, and ages of participants. the name and email fields are required for the form to be submitted. The form also allows users to select their level of experience with marathons from a dropdown list. The user can indicate their gender on the form by choosing their corresponding gender from a group of radio buttons, furthermore, this form enables users to express the sort of marathon events they enjoy the most by selecting the corresponding events from checkboxes.    
+Hello guys, this is a Survey Form for gathering data from people participating in marathon events. The form takes the names, email addresses, and ages of participants. The name and email fields are required for the form to be submitted. The form also allows users to select their level of experience with marathons from a drop-down list. The user can indicate their gender on the form by choosing their corresponding gender from a group of radio buttons; furthermore, this form enables users to express the sort of marathon events they enjoy the most by selecting the corresponding events from checkboxes.
 
 ![How it works](/images/Survey_Form_twitter-2_AdobeExpress.gif)
 
 # 2. Why did I build this :question:
 
-The aim of this project was to test my HTML and CSS skills. to essentially test my knowledge and understanding of HTML forms and their associated element, and how to style these elements using CSS properties.
+The aim of this project was to test my HTML and CSS skills. to essentially test my knowledge and understanding of HTML forms and their associated elements, and how to style these elements using CSS properties.
 
-# 3. What I learned from building this project.
-- How to setup HTML form Validation using " the **min and max** attributes", "the **required** attribute" and using input types such as "**email and number**".
+# 3. What I learned from building this project
+- How to setup HTML form Validation using "the **min and max** attributes", "the **required** attribute" and input types such as "**email and number**".
 - How to control the width of an element that has *borders* using the **"box-sizing"** property.
 - How to alter the appearance of "placeholder text" with CSS properties.
 - How to center divs using a combination of the **display: block;** and the **margin: auto;** CSS properties.
@@ -46,8 +46,8 @@ In the course of building this project, I made use of the following tools and re
 - Images from[ pixels.com](https://www.pexels.com/) :link:
 - Resources from [freeCodeCamp.org](https://www.freecodecamp.org/) :link:
 
-# 6. Challenges :sweat:
-In the process of building this project, I encountered a few challenges such as;
+# 6. Challenges: :sweat:
+In the process of building this project, I encountered a few challenges, such as;
 - I couldn't get the input boxes and the text area element to have a uniform width. I resolved this by applying the **"box-sizing"** property to the and setting the value to **"border-box"**
 
 ```CSS
