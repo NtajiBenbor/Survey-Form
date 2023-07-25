@@ -27,7 +27,7 @@ The aim of this project was to test my HTML and CSS skills. to essentially test 
 - How to center divs using a combination of the **display: block;** and the **margin: auto;** CSS properties.
 
 
-You can check this project out [Here](https://www.benedict.com) :link:
+You can check this project out [Here](https://marathon-survey.netlify.app/) :link:
 
 # 4. Screenshots :camera:
 
