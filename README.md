@@ -5,7 +5,7 @@
 1. [Project description](#1-project-overview)
 2. [Why did I build this project](#2-why-did-i-build-this)
 3. [what I learned building this project.](#3-what-i-learnt-from-building-this-project)
-4. [Screenshoots](#4-screenshots)
+4. [Screenshots](#4-screenshots)
 5. [Tools and Resources Utilized](#5-tools-and-resources)
 6. [Challenges](#6-challenges)
 7. [Author](#7-author)
